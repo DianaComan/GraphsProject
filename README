@@ -4,12 +4,12 @@ Grupa: 323CA
 Tema: Grafuri
 Dificultate: Medie
 ===========================================================================
-Problema 1 
+Problema minlexbfs
 S-au aranjat crescator vecinii pentru fiecare nod, si apoi s-a aplicat din
 nodul 1 algoritmul de BFS ca la laborator
 Complexitate: O(m*n) (pt sortare), O(n+m) - BFS => O(n*m)
 ===========================================================================
-Problema 2
+Problema disjcnt
 La problema 2 s-a incercat "despartirea elementelor" care pot constitui drumuri:
     - s-au inlaturat din graf muchiile critice, insa cele care apar de mai multe
 ori sunt readaugate o singura data
@@ -18,7 +18,7 @@ n e dimensiunea componentei.
 Complexitate: O(m+n) pt muchiile critice, O(m^2) pt eliminarea muchiilor critice, 
 O(n^2) pt ctc => O(n^2+m^2) 
 ===========================================================================
-Problema Bonus
+Problema revedges
 S-a considerat costul astfel: pt graful original 0 (daca oriemtarea e buna nu 
 trebuie modificat) si 1 pt cel inversat (se inverseaza daca e in directia opusa)
 S-a creat matricea de reprezentare si s-a aplicat RoyFloyd
